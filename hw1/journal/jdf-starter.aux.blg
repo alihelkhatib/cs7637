@@ -1,0 +1,5 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is '.\jdf-starter.aux.blg'
+[198] biber-MSWIN64:340> INFO - === 
+[601] Utils.pm:411> ERROR - Cannot find '.\jdf-starter.aux.bcf'!
+[601] Biber.pm:132> INFO - ERRORS: 1
