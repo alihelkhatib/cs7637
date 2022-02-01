@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.1)  1 FEB 2022 17:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.1)  1 FEB 2022 17:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -881,6 +881,13 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 286.
+) (C:\Users\alihe\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count433
+\float@exts=\toks33
+\float@box=\box57
+\@float@everytoks=\toks34
+\@floatcapt=\box58
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -890,8 +897,8 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 (C:\Users\alihe\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count433
-\l__pdf_internal_box=\box57
+\l__color_backend_stack_int=\count434
+\l__pdf_internal_box=\box59
 ) (jdf-starter.aux)
 \openout1 = `jdf-starter.aux'.
 
@@ -967,7 +974,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count434
+\c@section@level=\count435
 )
 LaTeX Info: Redefining \ref on input line 14.
 LaTeX Info: Redefining \pageref on input line 14.
@@ -1008,22 +1015,23 @@ Package microtype Warning: \nonfrenchspacing is active. Adjustment of
 (microtype)                to your preamble.
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 (C:\Users\alihe\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count435
+\scratchcounter=\count436
 \scratchdimen=\dimen195
-\scratchbox=\box58
-\nofMPsegments=\count436
-\nofMParguments=\count437
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count438
+\scratchbox=\box60
+\nofMPsegments=\count437
+\nofMParguments=\count438
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count439
 \MPscratchDim=\dimen196
-\MPnumerator=\count439
-\makeMPintoPDFobject=\count440
-\everyMPtoPDFconversion=\toks34
+\MPnumerator=\count440
+\makeMPintoPDFobject=\count441
+\everyMPtoPDFconversion=\toks36
 )
 (C:\Users\alihe\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -1117,21 +1125,36 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (C:\Users\alihe\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-<../figures/europe-groups.png, id=20, 2569.6pt x 1817.79124pt>
+LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
+22.
+
+(C:\Users\alihe\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pplj.fd
+File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
+)
+<../figures/europe-groups.png, id=16, 2569.6pt x 1817.79124pt>
 File: ../figures/europe-groups.png Graphic file (type png)
 <use ../figures/europe-groups.png>
-Package pdftex.def Info: ../figures/europe-groups.png  used on input line 23.
+Package pdftex.def Info: ../figures/europe-groups.png  used on input line 32.
 (pdftex.def)             Requested size: 278.22627pt x 196.82335pt.
 
 [1
 
-{C:/Users/alihe/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <../figures/e
-urope-groups.png>] (jdf-starter.aux)
+{C:/Users/alihe/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+
+LaTeX Warning: Reference `.' on page 2 undefined on input line 38.
+
+<../figures/google-ads.png, id=30, 867.24pt x 487.8225pt>
+File: ../figures/google-ads.png Graphic file (type png)
+<use ../figures/google-ads.png>
+Package pdftex.def Info: ../figures/google-ads.png  used on input line 42.
+(pdftex.def)             Requested size: 278.23706pt x 156.50833pt.
+[2 <../figures/europe-groups.png> <../figures/google-ads.png>] (jdf-starter.aux
+)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `jdf-starter.out' has not changed.
-(rerunfilecheck)             Checksum: A3DAF9BCF508F72C9A0F46365493E86D;521.
+(rerunfilecheck)             Checksum: 850C36436935AC0DF3B4BE9A29F38A07;467.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                jdf-starter
@@ -1146,13 +1169,13 @@ Package logreq Info: Writing requests to 'jdf-starter.run.xml'.
 ### simple group (level 1) entered at line 15 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 24370 strings out of 478593
- 429558 string characters out of 2844605
- 1163994 words of memory out of 3000000
- 42026 multiletter control sequences out of 15000+600000
- 529398 words of font info for 177 fonts, out of 8000000 for 9000
+ 24584 strings out of 478593
+ 433090 string characters out of 2844605
+ 1168637 words of memory out of 3000000
+ 42169 multiletter control sequences out of 15000+600000
+ 540918 words of font info for 225 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,7n,131p,1010b,1819s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 84i,7n,131p,1010b,1817s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/alihe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/b
 ase/8r.enc}<C:/Users/alihe/AppData/Local/Programs/MiKTeX/fonts/type1/public/fpl
 /fplbij8a.pfb><C:/Users/alihe/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -1161,9 +1184,9 @@ c/fpl/fplrc8a.pfb><C:/Users/alihe/AppData/Local/Programs/MiKTeX/fonts/type1/urw
 /palatino/uplb8a.pfb><C:/Users/alihe/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/palatino/uplbi8a.pfb><C:/Users/alihe/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/urw/palatino/uplr8a.pfb>
-Output written on jdf-starter.pdf (1 page, 555335 bytes).
+Output written on jdf-starter.pdf (2 pages, 605295 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
- 70694 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 69 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
+ 88099 words of extra memory for PDF output out of 89155 (max. 10000000)
 
