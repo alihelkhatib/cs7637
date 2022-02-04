@@ -238,11 +238,12 @@
 %%
 % References
 \RequirePackage[
-	bibstyle=authoryear,
+	bibstyle=apa,
 	dashed=false,
 	sorting=nyt,
 	natbib=true,
-	maxbibnames=99
+	maxbibnames=99,
+	backend=biber
 ]{biblatex}
 
 \DeclareFieldFormat{bibentrysetcount}{\mkbibparens{\mknumalph{#1}}}

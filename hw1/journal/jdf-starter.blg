@@ -1,15 +1,15 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'jdf-starter.blg'
-[123] biber-MSWIN64:340> INFO - === 
-[165] Biber.pm:415> INFO - Reading 'jdf-starter.bcf'
-[283] Biber.pm:952> INFO - Found 5 citekeys in bib section 0
-[298] Biber.pm:4340> INFO - Processing section 0
-[312] Biber.pm:4531> INFO - Looking for bibtex format file 'references.bib' for section 0
-[371] bibtex.pm:1689> INFO - LaTeX decoding ...
-[389] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
-[441] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[441] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[442] Biber.pm:4168> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[442] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[452] bbl.pm:654> INFO - Writing 'jdf-starter.bbl' with encoding 'UTF-8'
-[454] bbl.pm:757> INFO - Output to jdf-starter.bbl
+[122] biber-MSWIN64:340> INFO - === 
+[166] Biber.pm:415> INFO - Reading 'jdf-starter.bcf'
+[303] Biber.pm:952> INFO - Found 7 citekeys in bib section 0
+[320] Biber.pm:4340> INFO - Processing section 0
+[334] Biber.pm:4531> INFO - Looking for bibtex format file 'references.bib' for section 0
+[400] bibtex.pm:1689> INFO - LaTeX decoding ...
+[420] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
+[488] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[488] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[489] Biber.pm:4168> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[489] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[502] bbl.pm:654> INFO - Writing 'jdf-starter.bbl' with encoding 'UTF-8'
+[506] bbl.pm:757> INFO - Output to jdf-starter.bbl

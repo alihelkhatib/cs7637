@@ -19,13 +19,14 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
-    \entry{brandom_french_2021}{misc}{}
+    \entry{brandom_french_2021}{article}{}
       \name{author}{1}{}{%
-        {{hash=926d9746931c0302d53aefb0f18cdc17}{%
+        {{un=0,uniquepart=base,hash=926d9746931c0302d53aefb0f18cdc17}{%
            family={Brandom},
            familyi={B\bibinitperiod},
            given={Russell},
-           giveni={R\bibinitperiod}}}%
+           giveni={R\bibinitperiod},
+           givenun=0}}%
       }
       \list{language}{1}{%
         {en}%
@@ -40,6 +41,7 @@
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The GDPR doesn’t play around}
@@ -60,11 +62,12 @@
     \endentry
     \entry{g2e}{misc}{}
       \name{author}{1}{}{%
-        {{hash=c412b40336ce3f729cdae759edf25d02}{%
+        {{un=0,uniquepart=base,hash=c412b40336ce3f729cdae759edf25d02}{%
            family={CDC\bibnamedelima Gaming},
            familyi={C\bibinitperiod\bibinitdelim G\bibinitperiod},
            given={Mark\bibnamedelima Gruetze},
-           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
       }
       \list{language}{1}{%
         {en-US}%
@@ -78,7 +81,8 @@
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{url}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Casinos finally can get facial recognition technology that works, but operators must be prepared to handle all the information it will provide, a Global Gaming Expo panel said. In the past couple of years, the technology has advanced dramatically, providing security experts with the ability to identify violent criminals or blacklisted patrons before they enter a venue or offering marketing executives the ability to obtain even more revealing data about players. But the technology also could end the “didn’t know/can’t tell” defense for not identifying suspected “chip walkers” and others involved in potentially questionable transactions. “The reward side is probably the sexier topic for a lot of folks in gaming,” said Nasr Sattar, vice president of NRT Technology Corp.’s Innovation Group. “Compliance is also a very risky area. No one wants to get a million dollar fine for not knowing who that person is and not reporting it.” Sattar spoke}
@@ -88,6 +92,7 @@
       \field{urlday}{2}
       \field{urlmonth}{2}
       \field{urlyear}{2022}
+      \field{year}{2019}
       \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.cdcgamingreports.com/g2e-new-generation-of-facial-recognition-enhances-security-raises-questions/
@@ -96,14 +101,119 @@
       \verb https://www.cdcgamingreports.com/g2e-new-generation-of-facial-recognition-enhances-security-raises-questions/
       \endverb
     \endentry
-    \entry{australia}{misc}{}
+    \entry{efta}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3edf3bb14424a905d4e539be7fc4ec8a}{%
+           family={EFTA},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{3edf3bb14424a905d4e539be7fc4ec8a}
+      \strng{fullhash}{3edf3bb14424a905d4e539be7fc4ec8a}
+      \strng{bibnamehash}{3edf3bb14424a905d4e539be7fc4ec8a}
+      \strng{authorbibnamehash}{3edf3bb14424a905d4e539be7fc4ec8a}
+      \strng{authornamehash}{3edf3bb14424a905d4e539be7fc4ec8a}
+      \strng{authorfullhash}{3edf3bb14424a905d4e539be7fc4ec8a}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The {Basic} {Features} of the {EEA} {Agreement} {|} {European} {Free} {Trade} {Association}}
+      \field{urlday}{2}
+      \field{urlmonth}{2}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.efta.int/eea/eea-agreement/eea-basic-features#1
+      \endverb
+      \verb{url}
+      \verb https://www.efta.int/eea/eea-agreement/eea-basic-features#1
+      \endverb
+    \endentry
+    \entry{gdpr}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f2e6e3b9bff59f293f0e9019a1ecabc5}{%
+           family={EU},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {European Union}%
+      }
+      \strng{namehash}{f2e6e3b9bff59f293f0e9019a1ecabc5}
+      \strng{fullhash}{f2e6e3b9bff59f293f0e9019a1ecabc5}
+      \strng{bibnamehash}{f2e6e3b9bff59f293f0e9019a1ecabc5}
+      \strng{authorbibnamehash}{f2e6e3b9bff59f293f0e9019a1ecabc5}
+      \strng{authornamehash}{f2e6e3b9bff59f293f0e9019a1ecabc5}
+      \strng{authorfullhash}{f2e6e3b9bff59f293f0e9019a1ecabc5}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32016R0679
+      \endverb
+      \verb{url}
+      \verb https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32016R0679
+      \endverb
+    \endentry
+    \entry{EUdataregulations}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a1b813a6e85874b4c945aec2cdbea74c}{%
+           family={EuropeanCommission},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {European Commission}%
+      }
+      \strng{namehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{fullhash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{bibnamehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{authorbibnamehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{authornamehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{authorfullhash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{2018 reform of EU data protection rules}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://ec.europa.eu/commission/sites/beta-political/files/data-protection-factsheet-changes_en.pdf
+      \endverb
+      \verb{url}
+      \verb https://ec.europa.eu/commission/sites/beta-political/files/data-protection-factsheet-changes_en.pdf
+      \endverb
+    \endentry
+    \entry{australia}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c469dfb502336532e432fae14fcbfa42}{%
+           family={Gizmodo},
+           familyi={G\bibinitperiod}}}%
+      }
       \list{language}{1}{%
         {en-us}%
       }
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \strng{namehash}{c469dfb502336532e432fae14fcbfa42}
+      \strng{fullhash}{c469dfb502336532e432fae14fcbfa42}
+      \strng{bibnamehash}{c469dfb502336532e432fae14fcbfa42}
+      \strng{authorbibnamehash}{c469dfb502336532e432fae14fcbfa42}
+      \strng{authornamehash}{c469dfb502336532e432fae14fcbfa42}
+      \strng{authorfullhash}{c469dfb502336532e432fae14fcbfa42}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{url}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Australia's national privacy regulator determined Clearview AI breached users' privacy and violated the Australian Privacy Act 1988.}
       \field{journaltitle}{Gizmodo}
@@ -111,6 +221,7 @@
       \field{urlday}{2}
       \field{urlmonth}{2}
       \field{urlyear}{2022}
+      \field{year}{2021}
       \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://gizmodo.com/clearview-ai-forced-to-cease-data-scraping-operations-i-1847991895
@@ -121,11 +232,12 @@
     \endentry
     \entry{hill_secretive_2020}{article}{}
       \name{author}{1}{}{%
-        {{hash=944914baec71146db1acb824e501ce09}{%
+        {{un=0,uniquepart=base,hash=944914baec71146db1acb824e501ce09}{%
            family={Hill},
            familyi={H\bibinitperiod},
            given={Kashmir},
-           giveni={K\bibinitperiod}}}%
+           giveni={K\bibinitperiod},
+           givenun=0}}%
       }
       \list{language}{1}{%
         {en-US}%
@@ -140,6 +252,7 @@
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A little-known start-up helps law enforcement match photos of unknown people to their online images — and “might lead to a dystopian future or something,” a backer says.}
@@ -160,24 +273,6 @@
       \verb https://www.nytimes.com/2020/01/18/technology/clearview-privacy-facial-recognition.html
       \endverb
       \keyw{Clearview AI Inc,Facial Recognition Software,Privacy,Social Media,Identification Devices,Artificial Intelligence,Ton-That,Hoan,Schwartz,Richard J (1958- ),Clement,Paul D,Thiel,Peter A,Police}
-    \endentry
-    \entry{efta}{misc}{}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{url}
-      \field{labeltitlesource}{title}
-      \field{title}{The {Basic} {Features} of the {EEA} {Agreement} {|} {European} {Free} {Trade} {Association}}
-      \field{urlday}{2}
-      \field{urlmonth}{2}
-      \field{urlyear}{2022}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.efta.int/eea/eea-agreement/eea-basic-features#1
-      \endverb
-      \verb{url}
-      \verb https://www.efta.int/eea/eea-agreement/eea-basic-features#1
-      \endverb
     \endentry
   \enddatalist
 \endrefsection
