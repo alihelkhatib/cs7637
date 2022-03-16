@@ -1,0 +1,53 @@
+\section{Murder Mystery: Language is Hard}
+\subsection{Understanding Emphasis}
+When constructing an AI Agent to solve this murder, the agent would understand the sentence "She wasn't there" by parsing the sentence into it's thematic role using semantic analysis and top-down reasoning. This would be represented like this:
+\begin{itemize}
+	\item Thematic Role
+	\subitem \textbf{agent}: She
+	\subitem \textbf{verb}: is
+	\subitem \textbf{location:} there
+	\subitem \textbf{qualifier:} not
+\end{itemize}
+With the sentence lacking any emphasis, the AI agent would understand that a female person was not at a physical location sometime in the past.
+
+Therefore the AI agent would understand that \textit{She} refers to either of the three suspect women. It would understand that \textit{Was} along with the qualifier \textit{Not} would represent \textit{She} did not exist sometime in the past. Finally, \textit{There} would most likely be understood as a physical location, although it could also represent the agent's (\textit{She}) mental status.
+
+From this representation, however, there is a great deal of ambiguity. Firstly, the agent would not know to whom \textit{She} specifically refers to (i.e., inability to infer). It may be able to tell that \textit{She} refers to either Mrs. Swettenham, Mrs. Easterbrook, or Julia Simmons, but not the exact identity. 
+
+For the different emphases the AI agent may interpret the meaning of each sentence variation differently. In the case of "\textit{She} wasn't there", the AI agent may infer that the sentence refers to a specific person not being present in some location. The frame representation may look like the following:
+
+
+\begin{itemize}
+	\item \textit{She} wasn't there: meaning that the speaker has a very specific person in mind. Not that we the reader nor the AI agent would have enough information to decipher whom the speaker is specifically referring to. This would be similar to "She was not there, but a second lady was there". A compound sentence in this case, but necessary to gain full context.
+	\item Clause 1
+	\subitem \textbf{agent}: She
+	\subitem \textbf{verb}: is
+	\subitem \textbf{location:} there
+	\subitem \textbf{qualifier:} not
+	
+	\item Clause 2
+	\subitem \textbf{agent}: a second lady
+	\subitem \textbf{verb}: is
+	\subitem \textbf{location:} there
+
+
+	\item She \textit{wasn't} there: meaning here would be that the speaker is confirming a suspicion they held towards whomever \textit{she }is. This could also imply that \textit{Wasn't} has a more metaphorical meaning in the sense that the target lost mental capacity. A third meaning is that the speaker was unable to find the person \textit{She} in a location that the speaker searched for this person. This would similar to \textit{I did not find her there.}
+	\subitem \textbf{agent}: the speaker
+	\subitem \textbf{verb}: find
+	\subitem \textbf{coagent}: her
+	\subitem \textbf{qualifier:} not
+	\subitem \textbf{location:} there
+	
+
+	\item She wasn't \textit{there}: this could imply that the speaker is thinking of a different location that the agent of the sentence was existing in. In the sense of being confounded, similar to "She was not there, she was elsewhere".
+	\subitem \textbf{agent}: She
+	\subitem \textbf{verb}: is
+	\subitem \textbf{location:} there
+	\subitem \textbf{qualifier:} not
+	\subitem \textbf{destination:} elsewhere
+
+\end{itemize}
+
+
+
+To account for these different meanings and retain the benefits of top-down processing and context, the AI agent could consider all the possible meanings until more context is given. This could have a similar explosion problem as in \textit{Classification}, where with the increase in the number of words would further increase the number of different emphasis variations that it would need to consider. Another possibility is for the AI agent to process the most likely emphasis of the sentence based on past interactions or past experiences that it (the AI agent) has trained on. This would cause similar errors that we saw in Agatha Cristie's novel, but would save significantly on processing power needed.

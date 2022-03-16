@@ -1,0 +1,78 @@
+\documentclass[
+	%a4paper, % Use A4 paper size
+	letterpaper, % Use US letter paper size
+]{jdf}
+\usepackage{enumitem}
+\usepackage{float}
+
+\addbibresource{references.bib}
+
+\author{Ali El-Khatib}
+\email{aelkhatib6@gatech.edu}
+\title{Mini-Project 3: Sentence Reading}
+
+\begin{document}
+\maketitle
+
+\section{How does your agent work? Does it use some concepts covered in our course? Or some other approach?}
+The first aspect of note is the part-of-speech tagging for each of the common words that were given. This involved all of the words being tagged by their most commonly\footnote{This poses it's own controversy, just as the debate about the most commonly used words, their most common part-of-speech usage would be equally as controversial for some of the words.} used part-of-speech. 
+\begin{itemize}
+	\item Verb
+	\item Noun
+	\item Adjective
+	\item Adverb
+	\item Name, or Pronoun
+	\item Interjection
+	\item Conjunction
+	\item Preposition
+
+\end{itemize} 
+In my opinion this process mirrored the process of an instructor teaching children how to read, as it was the necessary background knowledge needed in order to first begin understanding the English language.
+
+After understanding a word's most common part-of-speech usage, the next step is to construct the frames for both the sentence and question. Depending on the first \textit{Question-word}, it would then match the desired part-of-speech. Example, \textit{Who} would suggest the answer to the question is tagged as a \textit{Name} or \textit{Pronoun}.
+
+After this, the agent then utilizes the tags to answer the question. If it needs to determine time of day for cases of \textit{At What time}, it finds the word with \textit{:}. Otherwise, \textit{who} tells the agent to filter to Pronouns, \textit{What} tells it to filter to adjectives, and  \textit{when} filters to nouns. 
+
+\section{How well does your agent perform? Does it struggle on any particular cases?}
+The agent was able to answer a majority of the test cases correctly, resulting in a moderate score of 34/40. There were a few cases where the answer was considerably absurd or laughable. For example:
+
+\begin{itemize}
+	\item \textbf{Sentence}: The white dog and the blue horse play together.
+	\item \textbf{Question:} What animal is blue?
+	\item \textbf{Agent's Answer:} blue
+\end{itemize}
+In the case above, the problem was traced back to a mistake in the design. I did not include a case of \textit{What} leading specifically to a noun in this case, therefore agent returned the adjective when scanning the sentence from end-to-start. This further lead to the next incorrect response example:
+\begin{itemize}
+\item \textbf{Sentence:} The blue bird will sing in the morning.
+\item \textbf{Question:} What will sing in the morning?
+\item \textbf{Agent's Answer:} morning
+\end{itemize}
+Ultimately, the agent struggled the most with questions beginning with \textit{What}. This ultimately led to including the similarity method described in \ref{clever}, where question and sentence are compared for the number of words that match between the two of them. In spite of this struggle, the agent was able to answer the other types of questions correctly regardless of complexity \footnote{A concern I had with the design was the agent being able to correctly provide compound answers when one or more-subjects are involved in the pattern of \textit{Noun and Noun.}}
+
+\section{How efficient is your agent? How does its performance change as the sentence complexity grows?}
+The initial frame construction and part-of-speech tagging is the most time-consuming aspect of the agent's design. Depending on the length of the sentence and question, each word is tagged--because all the common words were already tagged with their part-of-speech this was a simple comparison to a dictionary--leading to a time-complexity of O(n).  This creates a lookup table that is used for the frame construction. Therefore, after tagging each part of the sentence and question, looking up the answer involves finding the part-of-speech targeted by the question word, which is a lookup of O(1), and then extracting the answer from the sentence.
+
+\section{Does your agent do anything particularly clever to try to arrive at an answer more efficiently?}  \label{clever}
+The typical pattern for a fair amount of the cases follows how children are taught grammar in early school. Typically, a statement is given, and a question is then posed. However, the question prompt usually includes a portion of the original statement or changes a few words. An example is: 
+\begin{itemize}
+	\item \textbf{Sentence}: \underline{The house is made of} paper. 
+	\item \textbf{Question}: What \underline{is the house made of}?
+\end{itemize} 
+
+ In the above, we find that the only difference is the substitution of \textit{paper} with a question-word in \textit{what}. Therefore, comparing the question to the statement and finding this single substitution was one potentially clever method. Although the implementation itself may not have been the most efficient, this bypassed the lengthy part-of-speech tagging and frame construction methods, resulting in significant time-cost reduction.
+
+
+\section{How does your agent compare to a human? Do you feel people interpret the questions similarly?}   
+Overall, I found that the agent had performed reasonably-well when compared to a native English speaker. There were some responses that the agent gave that were outright nonsensical, while a few were "correct" but had responses that were possibly more formal than the typical speaker would give. An example is the following:
+\begin{itemize}
+	\item \textbf{Sentence}: The sound of rain is cool. 
+	\item \textbf{Question}: What has a cool sound?
+	\item \textbf{Agent's Answer}: sound of rain
+	\item \textbf{Answer incorrect}: no points awarded!
+\end{itemize} 
+
+In the above example, I would consider the agent's answer to be correct, but potentially overly specific. I find it completely reasonable that a person's typical response to this test case--in everyday speech-- would simply be \textit{rain} or \textit{the rain}. The more "textbook" or English-language class answer would be similar to the agent's, as it incorporates the original statement sentence wording in it's response. In this way, using the method of tagging parts-of-speech mimics closely the process of learning a new spoken language. However, humans are able to easily adapt the meaning of the words, while the Agnet or AI requires significant number of "cases" and priming before being able to reach the level of human adaptability.
+
+
+
+\end{document}
